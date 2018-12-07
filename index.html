@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
+   
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Solar system (real one)</title>
+    <style>
+        body {
+            font-family: Nunito;
+            font-size: 15px;
+            color: white;
+            background-color: black;
+            overflow:hidden;
+        }
+        #info {
+        
+        top: 20px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display:block;
+        position: absolute;
+        font-family: Nunito;
+        font-size: 15px;
+        color: white;
+        
+    }
+    .slidecontainer {
+        font-family: Nunito;
+        font-size: 15px;
+        color: white;
+        position: absolute;
+        top: 40px;
+        text-align: center;
+        z-index: 100;
+    }
+           
+    </style>
+</head>
+
+<body>
+    
+    
+    
+
+<!---<script type="text/javascript" src="js/bundle.js"></script></body> 
+---->
+
+<script src="src/js/three.min.js"></script>
+<script src="src/js/controls/OrbitControls.js"></script>
+<script src="src/js/index.js"></script>
+<div id="info">Real scale and distances between the planets </div>
+    <div class="slidecontainer">
+        Scale planets (without Sun) 
+        <input type="range" min="1" max="80" value="1" id ="slider">
+    </div>
+</body> 
+
+</html>
