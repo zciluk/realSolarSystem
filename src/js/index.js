@@ -16,19 +16,19 @@ function init() {
     
 
     // load background star texture
-    scene.background = new THREE.TextureLoader().load('../texture/stars.png');
+    scene.background = new THREE.TextureLoader().load('../src/texture/stars.png');
     
     //setting the planets
     // load textures
-    const sunTexture = new THREE.TextureLoader().load('../texture/2k_sun.jpg');
-    const mercuryTexture = new THREE.TextureLoader().load('../texture/2k_mercury.jpg');
-    const venusTexture = new THREE.TextureLoader().load('../texture/2k_venus.jpg');
-    const earthTexture = new THREE.TextureLoader().load('../texture/earth.jpg');
-    const marsTexture = new THREE.TextureLoader().load('../texture/2k_mars.jpg');
-    const jupiterTexture = new THREE.TextureLoader().load('../texture/2k_jupiter.jpg');
-    const saturnTexture = new THREE.TextureLoader().load('../texture/2k_saturn.jpg');
-    const uranusTexture = new THREE.TextureLoader().load('../texture/2k_uranus.jpg');
-    const neptuneTexture = new THREE.TextureLoader().load('../texture/2k_neptune.jpg');
+    const sunTexture = new THREE.TextureLoader().load('../src/texture/2k_sun.jpg');
+    const mercuryTexture = new THREE.TextureLoader().load('../src/texture/2k_mercury.jpg');
+    const venusTexture = new THREE.TextureLoader().load('../src/texture/2k_venus.jpg');
+    const earthTexture = new THREE.TextureLoader().load('../src/texture/earth.jpg');
+    const marsTexture = new THREE.TextureLoader().load('../src/texture/2k_mars.jpg');
+    const jupiterTexture = new THREE.TextureLoader().load('../src/texture/2k_jupiter.jpg');
+    const saturnTexture = new THREE.TextureLoader().load('../src/texture/2k_saturn.jpg');
+    const uranusTexture = new THREE.TextureLoader().load('../src/texture/2k_uranus.jpg');
+    const neptuneTexture = new THREE.TextureLoader().load('../src/texture/2k_neptune.jpg');
 
     // Earth
     
